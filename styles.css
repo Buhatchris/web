@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('path-to-your-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(37, 52, 101); /* Fallback background color */
+    
+}
+
+header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('img/bgimage.jpg'); 
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    background-color: rgba(169, 169, 169, 0.558);
+    color:white;
+}
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+
+}
+.navbar-brand {
+    font-family: 'Old English Text MT';
+    font-weight: bold; 
+    font-size: 80px;
+}
+.navbarNav {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;  
+}
+.navbar-nav .nav-link {
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.navbar-nav a {
+    font-family: 'Times New Roman', Times, serif'
+}
+
+nav li{
+
+    font-size: px;
+}
+.card {
+    text-align: center;
+    background-color: rgb(1, 45, 100);
+    border: 2px solid rgb(62, 177, 212); 
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 20px rgb(0, 238, 255); 
+    height: 100%;
+}
+
+.card-img-top {
+    height: 400px; 
+    width: 100%; 
+    object-fit: cover; 
+}
+
+.card-img-fixed {
+    color: rgba(35, 55, 170, 0.982);
+    height: 100%; 
+    width: 100%;
+    object-fit: cover;
+}
+.aboutContainer{
+    background-color:  rgb(250, 237, 247);
+    text-align: center  ;
+    
+}
+.contactsContainer{
+    background-color:  white;
+}
+
